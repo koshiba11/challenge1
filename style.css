@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  height: 150px;
+  padding-top: 90px;
+  position: relative;
+}
+
+.profile-icon{
+  background-color: darkgray;
+  color: #fff;
+  padding: 8px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.nav-list{
+  display: flex;
+}
+
+.nav-list-item{
+  list-style: none;
+}
