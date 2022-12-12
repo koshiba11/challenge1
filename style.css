@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+body{
+  color: #222222;
+  font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
+p{
+  line-height: 1.8;
+}
+
 header{
   height: 112px;
   background-color: #fff;
@@ -33,4 +46,31 @@ img{
   cursor: pointer;
   color: #aaa;
   font-size: 30px;
+}
+
+.hero{
+  height: 650px;
+  background-image: url(img/hero.jpg);
+  background-position: center;
+  background-size:cover;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hero h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.hero p{
+  margin-bottom: 72px;
 }
